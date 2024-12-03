@@ -18,7 +18,6 @@ void gerar_combinacoes(int posicao, char estado[]) {
         return;
     }
 
-    // Define o estado ativo (A) e inativo (I)
     estado[posicao] = 'A'; // Estado ativo
     gerar_combinacoes(posicao + 1, estado);
     
